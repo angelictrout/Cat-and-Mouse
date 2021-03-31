@@ -1,3 +1,4 @@
+//i dont know why this isnt working
 var ground, groundImg;
 
 var mouse, mouseRunning;
