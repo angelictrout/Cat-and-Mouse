@@ -1,4 +1,3 @@
-
 var ground, groundImg;
 
 var mouse, mouseRunning;
