@@ -1,4 +1,4 @@
-//i dont know why this isnt working
+
 var ground, groundImg;
 
 var mouse, mouseRunning;
@@ -8,19 +8,19 @@ var cat, catRunning;
 function preload() {
     //load the images here
 
-    groundImg = loadImage("garden.png");
+    groundImg = loadImage("images/garden.png");
 
-    mouse1 = loadAnimation("mouse1.png");
+    mouse1 = loadAnimation("images/mouse1.png");
 
-    mouse4 = loadAnimation("mouse4.png");
+    mouse4 = loadAnimation("images/mouse4.png");
 
-    mouseRunning = loadAnimation("mouse2.png", "mouse3.png");
+    mouseRunning = loadAnimation("images/mouse2.png", "images/mouse3.png");
 
-    cat1 = loadAnimation("cat1.png");
+    cat1 = loadAnimation("images/cat1.png");
 
-    cat4 = loadAnimation("cat4.png");
+    cat4 = loadAnimation("images/cat4.png");
 
-    catRunning = loadAnimation("cat2.png", "cat3.png");
+    catRunning = loadAnimation("images/cat2.png", "images/cat3.png");
 
 }
 
